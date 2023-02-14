@@ -1,12 +1,11 @@
 import './App.css'
-import AnimalExample from './components/AnimalExampleWithApiStates'
-import MortyComponent from './components/MortyComponents/MortyComponentList'
+import BusinessCardEditor from './BusinessCardComponents/BusinessCardEditor'
 function App() {
-return (
-<div className="App mx-auto max-w-6xl text-center my-8">
-<h1 className="font-semibold text-2xl"></h1>
-<MortyComponent />
-</div>
-)
+  return (
+    <div className="App mx-auto max-w-6xl text-center my-8">
+      <h1 className="font-semibold text-2xl">Card Preview</h1>
+      <BusinessCardEditor />
+    </div>
+  )
 }
 export default App
